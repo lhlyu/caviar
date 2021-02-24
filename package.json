@@ -1,0 +1,28 @@
+{
+    "name": "main",
+    "version": "1.0.0",
+    "main": "index.js",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "repository": "https://github.com/lhlyu/caviar.git",
+    "author": "lhlyu",
+    "license": "MIT",
+    "scripts": {
+        "fmt": "prettier --write .",
+        "doc": "vitepress-fc dev docs",
+        "build": "yarn workspace @lhlyu/caviar build"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@vitejs/plugin-vue-jsx": "^1.1.1",
+        "cross-env": "^7.0.3",
+        "lerna": "^3.22.1",
+        "lodash": "^4.17.21",
+        "prettier": "^2.2.1",
+        "vitepress-for-component": "^0.12.2",
+        "sass": "^1.32.7",
+        "typescript": "^4.1.3"
+    }
+}

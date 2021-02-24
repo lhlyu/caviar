@@ -1,0 +1,17 @@
+{
+    "packages": ["packages/*"],
+    "version": "0.0.1",
+    "npmClient": "yarn",
+    "useWorkspaces": true,
+    "ignoreChanges": [
+        "**/*.md",
+        "**/*.test.ts",
+        "**/*.e2e.ts",
+        "**/demos/**",
+        "**/fixtures/**",
+        "**/dist/**",
+        "**/lib/**",
+        "**/es/**",
+        "**/test/**"
+    ]
+}
