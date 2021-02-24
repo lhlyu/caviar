@@ -8,13 +8,6 @@ export default defineConfig({
         lib: {
             entry: './src/index.tsx',
             name: 'caviar',
-        },
-        rollupOptions: {
-            output: {
-                globals: {
-                    vue: 'Vue',
-                },
-            },
-        },
+        }
     },
 })
