@@ -9,7 +9,7 @@
 import { letgo } from '@lhlyu/hook'
 export default {
     components: {
-	    letgo
+        letgo
     },
     setup() {}
 }

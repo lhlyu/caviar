@@ -7,7 +7,7 @@ const base = process.env.NODE_ENV === 'production' ? '/' : ''
 module.exports = {
     title: 'caviar',
     description: 'vue hooks',
-    srcIncludes: ['./packages/caviar/src/components','./packages/hook/src/components'],
+    srcIncludes: ['./packages/caviar/src/components', './packages/hook/src/components'],
     outDir: '../dist',
     base,
     themeConfig: {
