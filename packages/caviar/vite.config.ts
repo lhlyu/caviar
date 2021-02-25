@@ -7,7 +7,7 @@ export default defineConfig({
         minify: true,
         lib: {
             entry: './src/index.tsx',
-            name: 'caviar',
+            name: 'caviar'
         }
-    },
+    }
 })
