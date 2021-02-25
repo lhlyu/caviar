@@ -3,3 +3,5 @@ node_modules
 dist
 docs/.temp
 docs/dist
+
+*.lock
