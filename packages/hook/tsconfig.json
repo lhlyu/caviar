@@ -13,7 +13,9 @@
         "declaration": true,
         "skipLibCheck": true,
         "allowSyntheticDefaultImports": true,
-        "paths": {}
+        "paths": {
+
+        }
     },
     "include": [
         "**/src/**/*",
