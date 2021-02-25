@@ -5,3 +5,4 @@ docs/.temp
 docs/dist
 
 *.lock
+package-lock.json
