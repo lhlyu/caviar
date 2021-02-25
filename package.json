@@ -12,6 +12,7 @@
     "scripts": {
         "fmt": "prettier --write .",
         "doc": "vitepress-fc dev docs",
+        "doc:build": "rimraf docs/dist && cross-env NODE_ENV=production vitepress-fc build --root=docs",
         "build": "yarn workspace @lhlyu/caviar build"
     },
     "dependencies": {},

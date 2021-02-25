@@ -1,3 +1,5 @@
 node_modules
 .idea
 dist
+docs/.temp
+docs/dist
