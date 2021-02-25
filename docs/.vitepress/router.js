@@ -1,8 +1,7 @@
 const { kebabCase } = require('lodash')
 
 const Router = {
-    Caviar: ['Welcome'],
-    Hook: ['Letgo']
+    Caviar: ['Welcome']
 }
 
 function getRouterConfig(langPrefix = '/') {

@@ -15,7 +15,6 @@
         "allowSyntheticDefaultImports": true,
         "paths": {
             "@lhlyu/caviar": ["./packages/caviar/src/index.tsx"],
-            "@lhlyu/hook": ["./packages/hook/src/index.tsx"]
         }
     },
     "include": [

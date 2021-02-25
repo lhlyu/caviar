@@ -1,5 +1,4 @@
 const { getRouterConfig } = require('./router')
-const { kebabCase } = require('lodash')
 const { resolve } = require('path')
 
 const base = process.env.NODE_ENV === 'production' ? '/' : ''
@@ -14,8 +13,7 @@ module.exports = {
         lang: 'en-US',
         lastUpdated: '最近更新',
         alias: {
-            '@lhlyu/caviar': resolve('./packages/caviar/src/'),
-            '@lhlyu/hook': resolve('./packages/hook/src/')
+            '@lhlyu/caviar': resolve('./packages/caviar/src/')
         },
         repo: 'lhlyu/caviar',
         repoLabel: 'Github',
