@@ -6,8 +6,8 @@ export default defineConfig({
     build: {
         minify: true,
         lib: {
-            entry: './src/index.tsx',
-            name: 'letgo'
+            entry: './src/index.ts',
+            name: 'hook'
         }
     }
 })

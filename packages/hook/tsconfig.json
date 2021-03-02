@@ -14,7 +14,7 @@
         "skipLibCheck": true,
         "allowSyntheticDefaultImports": true,
         "paths": {
-
+            "@lhlyu/hook": ["./src/index.ts"]
         }
     },
     "include": [
