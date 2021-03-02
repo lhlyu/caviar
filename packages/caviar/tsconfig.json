@@ -14,7 +14,7 @@
         "skipLibCheck": true,
         "allowSyntheticDefaultImports": true,
         "paths": {
-            "@lhlyu/caviar": ["./src/index.tsx"]
+            "@lhlyu/caviar": ["./src/index.ts"]
         }
     },
     "include": [

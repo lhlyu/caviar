@@ -1,19 +1,26 @@
-const { getRouterConfig } = require('./router')
-const { resolve } = require('path')
-
 const base = process.env.NODE_ENV === 'production' ? '/' : ''
+
+const sidebar = [
+    {
+        text: '卡片',
+        children: [
+            { text: 'CardA', link: '/components/cards/card-a/' },
+            { text: 'CardB', link: '/components/cards/card-b/' }
+        ]
+    }
+]
 
 module.exports = {
     title: 'caviar',
     description: 'vue hooks',
-    srcIncludes: ['./packages/caviar/src/components', './packages/hook/src/components'],
+    srcIncludes: ['./packages/caviar/src/components'],
     outDir: '../dist',
     base,
     themeConfig: {
-        lang: 'en-US',
+        lang: 'zh-CN',
         lastUpdated: '最近更新',
         alias: {
-            '@lhlyu/caviar': resolve('./packages/caviar/src/')
+            '@lhlyu/caviar': './packages/caviar/src/'
         },
         repo: 'lhlyu/caviar',
         repoLabel: 'Github',
@@ -21,16 +28,16 @@ module.exports = {
         nextLink: true,
         locales: {
             '/': {
-                lang: 'en-US',
+                lang: 'zh-CN',
                 title: 'caviar',
                 description: 'vue hooks',
-                label: 'English',
+                label: '中文',
                 selectText: 'Languages',
                 nav: [
-                    { text: 'Guide', link: '/' },
-                    { text: 'Document', link: `/v1/` }
+                    // { text: 'Guide', link: '/' },
+                    // { text: 'Document', link: `/v1/` }
                 ],
-                sidebar: getRouterConfig()
+                sidebar
             }
         }
     }

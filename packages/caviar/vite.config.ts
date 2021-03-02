@@ -6,7 +6,7 @@ export default defineConfig({
     build: {
         minify: true,
         lib: {
-            entry: './src/index.tsx',
+            entry: './src/index.ts',
             name: 'caviar'
         }
     }
